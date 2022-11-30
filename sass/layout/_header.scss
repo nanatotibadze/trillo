@@ -1,0 +1,19 @@
+.header {
+  font-size: 1.2rem;
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include respond(phone-small) {
+    flex-wrap: wrap;
+    height: 12rem;
+    align-content: space-around;
+  }
+}
+.logo {
+  height: 3.25rem;
+  margin-left: 2rem;
+}
